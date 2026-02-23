@@ -1,0 +1,57 @@
+﻿Running Gradle task 'assembleRelease'...                        
+flutter : 
+En línea: 1 Carácter: 1
++ flutter build apk > 
+build_error.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+FAILURE: Build failed 
+with an exception.
+
+* Where:
+Build file 'C:\Users\PI
+EROMSL\Downloads\DESA A
+PP\AgroConnect\AgroConn
+et\frontend\android\bui
+ld.gradle.kts' line: 1
+
+* What went wrong:
+Error resolving plugin 
+[id: 
+'com.android.library', 
+version: '8.11.1', 
+apply: false]
+> The request for this 
+plugin could not be 
+satisfied because the 
+plugin is already on 
+the classpath with an 
+unknown version, so 
+compatibility cannot 
+be checked.
+
+* Try:
+> Run with 
+--stacktrace option to 
+get the stack trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at http
+s://help.gradle.org.
+
+BUILD FAILED in 1s
+Running Gradle task 'assembleRelease'...                         1,839ms
+Gradle task 
+assembleRelease failed 
+with exit code 1
